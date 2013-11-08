@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCricket.Domain", "MyCricket.Domain\MyCricket.Domain.csproj", "{03D246AE-8FAC-4CC3-A73A-040C30C24836}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{73B2A0AD-ED09-4DF4-84EB-51E8BD9F650F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCricket.WebAPI.Tests", "MyCricket.WebAPI.Tests\MyCricket.WebAPI.Tests.csproj", "{A18409C7-8AFE-4833-BDD3-7C02BBEFCFFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCricket.WebAPI", "MyCricket.WebAPI\MyCricket.WebAPI.csproj", "{E53F5E32-1574-4E77-8D97-A9B01A72A444}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03D246AE-8FAC-4CC3-A73A-040C30C24836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03D246AE-8FAC-4CC3-A73A-040C30C24836}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03D246AE-8FAC-4CC3-A73A-040C30C24836}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03D246AE-8FAC-4CC3-A73A-040C30C24836}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A18409C7-8AFE-4833-BDD3-7C02BBEFCFFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A18409C7-8AFE-4833-BDD3-7C02BBEFCFFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A18409C7-8AFE-4833-BDD3-7C02BBEFCFFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A18409C7-8AFE-4833-BDD3-7C02BBEFCFFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E53F5E32-1574-4E77-8D97-A9B01A72A444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E53F5E32-1574-4E77-8D97-A9B01A72A444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E53F5E32-1574-4E77-8D97-A9B01A72A444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E53F5E32-1574-4E77-8D97-A9B01A72A444}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A18409C7-8AFE-4833-BDD3-7C02BBEFCFFE} = {73B2A0AD-ED09-4DF4-84EB-51E8BD9F650F}
+	EndGlobalSection
+EndGlobal

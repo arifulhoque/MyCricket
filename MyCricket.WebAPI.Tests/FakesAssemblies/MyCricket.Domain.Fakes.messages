@@ -1,0 +1,4 @@
+C:\Users\ariful.hoque\Documents\Visual Studio 2012\Projects\MyFirstMVC4\MyCricket.WebAPI.Tests\Fakes\MyCricket.Domain.fakes : warning : Cannot generate stub for MyCricket.Domain.GenderEnum: type is a value type.
+C:\Users\ariful.hoque\Documents\Visual Studio 2012\Projects\MyFirstMVC4\MyCricket.WebAPI.Tests\Fakes\MyCricket.Domain.fakes : warning : Cannot generate shim for MyCricket.Domain.GenderEnum: type is an enum.
+C:\Users\ariful.hoque\Documents\Visual Studio 2012\Projects\MyFirstMVC4\MyCricket.WebAPI.Tests\Fakes\MyCricket.Domain.fakes : warning : Cannot generate shim for MyCricket.Domain.Repositories.IRepository: type is an interface.
+C:\Users\ariful.hoque\Documents\Visual Studio 2012\Projects\MyFirstMVC4\MyCricket.WebAPI.Tests\Fakes\MyCricket.Domain.fakes : warning : Cannot generate shim for MyCricket.Domain.Repositories.ITeamRepository: type is an interface.

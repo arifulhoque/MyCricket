@@ -1,0 +1,734 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyCricket.Domain.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:MyCricket.Domain.Fakes.ShimAddress">
+            <summary>Shim type of MyCricket.Domain.Address</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.ShimAddress.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.ShimAddress.#ctor(MyCricket.Domain.Address)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.ShimAddress.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.ShimAddress.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.AddressLinesGet">
+            <summary>Sets the shim of Address.get_AddressLines()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.AddressLinesSetString">
+            <summary>Sets the shim of Address.set_AddressLines(String value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.Constructor">
+            <summary>Sets the shim of Address.Address()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.CountryGet">
+            <summary>Sets the shim of Address.get_Country()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.CountrySetCountry">
+            <summary>Sets the shim of Address.set_Country(Country value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.IdGet">
+            <summary>Sets the shim of Address.get_Id()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.IdSetInt32">
+            <summary>Sets the shim of Address.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.LatitudeGet">
+            <summary>Sets the shim of Address.get_Latitude()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.LatitudeSetNullableOfDecimal">
+            <summary>Sets the shim of Address.set_Latitude(Nullable`1&lt;Decimal&gt; value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.LongitudeGet">
+            <summary>Sets the shim of Address.get_Longitude()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.LongitudeSetNullableOfDecimal">
+            <summary>Sets the shim of Address.set_Longitude(Nullable`1&lt;Decimal&gt; value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.PostCodeGet">
+            <summary>Sets the shim of Address.get_PostCode()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.PostCodeSetString">
+            <summary>Sets the shim of Address.set_PostCode(String value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.StateGet">
+            <summary>Sets the shim of Address.get_State()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.StateSetState">
+            <summary>Sets the shim of Address.set_State(State value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.SuburbGet">
+            <summary>Sets the shim of Address.get_Suburb()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.SuburbSetString">
+            <summary>Sets the shim of Address.set_Suburb(String value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.SuiteGet">
+            <summary>Sets the shim of Address.get_Suite()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.SuiteSetString">
+            <summary>Sets the shim of Address.set_Suite(String value)</summary>
+        </member>
+        <member name="T:MyCricket.Domain.Fakes.ShimAddress.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.AllInstances.AddressLinesGet">
+            <summary>Sets the shim of Address.get_AddressLines()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.AllInstances.AddressLinesSetString">
+            <summary>Sets the shim of Address.set_AddressLines(String value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.AllInstances.CountryGet">
+            <summary>Sets the shim of Address.get_Country()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.AllInstances.CountrySetCountry">
+            <summary>Sets the shim of Address.set_Country(Country value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.AllInstances.IdGet">
+            <summary>Sets the shim of Address.get_Id()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.AllInstances.IdSetInt32">
+            <summary>Sets the shim of Address.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.AllInstances.LatitudeGet">
+            <summary>Sets the shim of Address.get_Latitude()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.AllInstances.LatitudeSetNullableOfDecimal">
+            <summary>Sets the shim of Address.set_Latitude(Nullable`1&lt;Decimal&gt; value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.AllInstances.LongitudeGet">
+            <summary>Sets the shim of Address.get_Longitude()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.AllInstances.LongitudeSetNullableOfDecimal">
+            <summary>Sets the shim of Address.set_Longitude(Nullable`1&lt;Decimal&gt; value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.AllInstances.PostCodeGet">
+            <summary>Sets the shim of Address.get_PostCode()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.AllInstances.PostCodeSetString">
+            <summary>Sets the shim of Address.set_PostCode(String value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.AllInstances.StateGet">
+            <summary>Sets the shim of Address.get_State()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.AllInstances.StateSetState">
+            <summary>Sets the shim of Address.set_State(State value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.AllInstances.SuburbGet">
+            <summary>Sets the shim of Address.get_Suburb()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.AllInstances.SuburbSetString">
+            <summary>Sets the shim of Address.set_Suburb(String value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.AllInstances.SuiteGet">
+            <summary>Sets the shim of Address.get_Suite()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimAddress.AllInstances.SuiteSetString">
+            <summary>Sets the shim of Address.set_Suite(String value)</summary>
+        </member>
+        <member name="T:MyCricket.Domain.Fakes.ShimCountry">
+            <summary>Shim type of MyCricket.Domain.Country</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.ShimCountry.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.ShimCountry.#ctor(MyCricket.Domain.Country)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.ShimCountry.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.ShimCountry.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimCountry.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimCountry.Constructor">
+            <summary>Sets the shim of Country.Country()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimCountry.CurrentRecordGet">
+            <summary>Sets the shim of Country.get_CurrentRecord()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimCountry.CurrentRecordSetBoolean">
+            <summary>Sets the shim of Country.set_CurrentRecord(Boolean value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimCountry.IdGet">
+            <summary>Sets the shim of Country.get_Id()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimCountry.IdSetInt32">
+            <summary>Sets the shim of Country.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimCountry.NameGet">
+            <summary>Sets the shim of Country.get_Name()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimCountry.NameSetString">
+            <summary>Sets the shim of Country.set_Name(String value)</summary>
+        </member>
+        <member name="T:MyCricket.Domain.Fakes.ShimCountry.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimCountry.AllInstances.CurrentRecordGet">
+            <summary>Sets the shim of Country.get_CurrentRecord()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimCountry.AllInstances.CurrentRecordSetBoolean">
+            <summary>Sets the shim of Country.set_CurrentRecord(Boolean value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimCountry.AllInstances.IdGet">
+            <summary>Sets the shim of Country.get_Id()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimCountry.AllInstances.IdSetInt32">
+            <summary>Sets the shim of Country.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimCountry.AllInstances.NameGet">
+            <summary>Sets the shim of Country.get_Name()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimCountry.AllInstances.NameSetString">
+            <summary>Sets the shim of Country.set_Name(String value)</summary>
+        </member>
+        <member name="T:MyCricket.Domain.Fakes.ShimFixture">
+            <summary>Shim type of MyCricket.Domain.Fixture</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.ShimFixture.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.ShimFixture.#ctor(MyCricket.Domain.Fixture)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.ShimFixture.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.ShimFixture.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimFixture.AwayTeamGet">
+            <summary>Sets the shim of Fixture.get_AwayTeam()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimFixture.AwayTeamSetTeam">
+            <summary>Sets the shim of Fixture.set_AwayTeam(Team value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimFixture.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimFixture.Constructor">
+            <summary>Sets the shim of Fixture.Fixture()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimFixture.HomeTeamGet">
+            <summary>Sets the shim of Fixture.get_HomeTeam()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimFixture.HomeTeamSetTeam">
+            <summary>Sets the shim of Fixture.set_HomeTeam(Team value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimFixture.MatchDateGet">
+            <summary>Sets the shim of Fixture.get_MatchDate()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimFixture.MatchDateSetDateTime">
+            <summary>Sets the shim of Fixture.set_MatchDate(DateTime value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimFixture.VenueGet">
+            <summary>Sets the shim of Fixture.get_Venue()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimFixture.VenueSetVenue">
+            <summary>Sets the shim of Fixture.set_Venue(Venue value)</summary>
+        </member>
+        <member name="T:MyCricket.Domain.Fakes.ShimFixture.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimFixture.AllInstances.AwayTeamGet">
+            <summary>Sets the shim of Fixture.get_AwayTeam()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimFixture.AllInstances.AwayTeamSetTeam">
+            <summary>Sets the shim of Fixture.set_AwayTeam(Team value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimFixture.AllInstances.HomeTeamGet">
+            <summary>Sets the shim of Fixture.get_HomeTeam()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimFixture.AllInstances.HomeTeamSetTeam">
+            <summary>Sets the shim of Fixture.set_HomeTeam(Team value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimFixture.AllInstances.MatchDateGet">
+            <summary>Sets the shim of Fixture.get_MatchDate()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimFixture.AllInstances.MatchDateSetDateTime">
+            <summary>Sets the shim of Fixture.set_MatchDate(DateTime value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimFixture.AllInstances.VenueGet">
+            <summary>Sets the shim of Fixture.get_Venue()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimFixture.AllInstances.VenueSetVenue">
+            <summary>Sets the shim of Fixture.set_Venue(Venue value)</summary>
+        </member>
+        <member name="T:MyCricket.Domain.Fakes.ShimPlayer">
+            <summary>Shim type of MyCricket.Domain.Player</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.ShimPlayer.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.ShimPlayer.#ctor(MyCricket.Domain.Player)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.ShimPlayer.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.ShimPlayer.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimPlayer.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimPlayer.Constructor">
+            <summary>Sets the shim of Player.Player()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimPlayer.GenderGet">
+            <summary>Sets the shim of Player.get_Gender()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimPlayer.GenderSetGenderEnum">
+            <summary>Sets the shim of Player.set_Gender(GenderEnum value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimPlayer.IdGet">
+            <summary>Sets the shim of Player.get_Id()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimPlayer.IdSetInt32">
+            <summary>Sets the shim of Player.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimPlayer.JoinedDateGet">
+            <summary>Sets the shim of Player.get_JoinedDate()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimPlayer.JoinedDateSetDateTime">
+            <summary>Sets the shim of Player.set_JoinedDate(DateTime value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimPlayer.NameGet">
+            <summary>Sets the shim of Player.get_Name()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimPlayer.NameSetString">
+            <summary>Sets the shim of Player.set_Name(String value)</summary>
+        </member>
+        <member name="T:MyCricket.Domain.Fakes.ShimPlayer.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimPlayer.AllInstances.GenderGet">
+            <summary>Sets the shim of Player.get_Gender()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimPlayer.AllInstances.GenderSetGenderEnum">
+            <summary>Sets the shim of Player.set_Gender(GenderEnum value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimPlayer.AllInstances.IdGet">
+            <summary>Sets the shim of Player.get_Id()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimPlayer.AllInstances.IdSetInt32">
+            <summary>Sets the shim of Player.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimPlayer.AllInstances.JoinedDateGet">
+            <summary>Sets the shim of Player.get_JoinedDate()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimPlayer.AllInstances.JoinedDateSetDateTime">
+            <summary>Sets the shim of Player.set_JoinedDate(DateTime value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimPlayer.AllInstances.NameGet">
+            <summary>Sets the shim of Player.get_Name()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimPlayer.AllInstances.NameSetString">
+            <summary>Sets the shim of Player.set_Name(String value)</summary>
+        </member>
+        <member name="T:MyCricket.Domain.Fakes.ShimState">
+            <summary>Shim type of MyCricket.Domain.State</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.ShimState.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.ShimState.#ctor(MyCricket.Domain.State)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.ShimState.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.ShimState.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimState.AbbreviationGet">
+            <summary>Sets the shim of State.get_Abbreviation()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimState.AbbreviationSetString">
+            <summary>Sets the shim of State.set_Abbreviation(String value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimState.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimState.Constructor">
+            <summary>Sets the shim of State.State()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimState.CurrentRecordGet">
+            <summary>Sets the shim of State.get_CurrentRecord()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimState.CurrentRecordSetBoolean">
+            <summary>Sets the shim of State.set_CurrentRecord(Boolean value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimState.IdGet">
+            <summary>Sets the shim of State.get_Id()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimState.IdSetInt32">
+            <summary>Sets the shim of State.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimState.NameGet">
+            <summary>Sets the shim of State.get_Name()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimState.NameSetString">
+            <summary>Sets the shim of State.set_Name(String value)</summary>
+        </member>
+        <member name="T:MyCricket.Domain.Fakes.ShimState.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimState.AllInstances.AbbreviationGet">
+            <summary>Sets the shim of State.get_Abbreviation()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimState.AllInstances.AbbreviationSetString">
+            <summary>Sets the shim of State.set_Abbreviation(String value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimState.AllInstances.CurrentRecordGet">
+            <summary>Sets the shim of State.get_CurrentRecord()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimState.AllInstances.CurrentRecordSetBoolean">
+            <summary>Sets the shim of State.set_CurrentRecord(Boolean value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimState.AllInstances.IdGet">
+            <summary>Sets the shim of State.get_Id()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimState.AllInstances.IdSetInt32">
+            <summary>Sets the shim of State.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimState.AllInstances.NameGet">
+            <summary>Sets the shim of State.get_Name()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimState.AllInstances.NameSetString">
+            <summary>Sets the shim of State.set_Name(String value)</summary>
+        </member>
+        <member name="T:MyCricket.Domain.Fakes.ShimTeam">
+            <summary>Shim type of MyCricket.Domain.Team</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.ShimTeam.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.ShimTeam.#ctor(MyCricket.Domain.Team)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.ShimTeam.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.ShimTeam.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimTeam.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimTeam.Constructor">
+            <summary>Sets the shim of Team.Team()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimTeam.CurrentRecordGet">
+            <summary>Sets the shim of Team.get_CurrentRecord()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimTeam.CurrentRecordSetBoolean">
+            <summary>Sets the shim of Team.set_CurrentRecord(Boolean value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimTeam.IdGet">
+            <summary>Sets the shim of Team.get_Id()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimTeam.IdSetInt32">
+            <summary>Sets the shim of Team.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimTeam.NameGet">
+            <summary>Sets the shim of Team.get_Name()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimTeam.NameSetString">
+            <summary>Sets the shim of Team.set_Name(String value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimTeam.PlayersGet">
+            <summary>Sets the shim of Team.get_Players()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimTeam.PlayersSetIListOfPlayer">
+            <summary>Sets the shim of Team.set_Players(IList`1&lt;Player&gt; value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimTeam.TeamBirthDayGet">
+            <summary>Sets the shim of Team.get_TeamBirthDay()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimTeam.TeamBirthDaySetDateTime">
+            <summary>Sets the shim of Team.set_TeamBirthDay(DateTime value)</summary>
+        </member>
+        <member name="T:MyCricket.Domain.Fakes.ShimTeam.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimTeam.AllInstances.CurrentRecordGet">
+            <summary>Sets the shim of Team.get_CurrentRecord()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimTeam.AllInstances.CurrentRecordSetBoolean">
+            <summary>Sets the shim of Team.set_CurrentRecord(Boolean value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimTeam.AllInstances.IdGet">
+            <summary>Sets the shim of Team.get_Id()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimTeam.AllInstances.IdSetInt32">
+            <summary>Sets the shim of Team.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimTeam.AllInstances.NameGet">
+            <summary>Sets the shim of Team.get_Name()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimTeam.AllInstances.NameSetString">
+            <summary>Sets the shim of Team.set_Name(String value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimTeam.AllInstances.PlayersGet">
+            <summary>Sets the shim of Team.get_Players()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimTeam.AllInstances.PlayersSetIListOfPlayer">
+            <summary>Sets the shim of Team.set_Players(IList`1&lt;Player&gt; value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimTeam.AllInstances.TeamBirthDayGet">
+            <summary>Sets the shim of Team.get_TeamBirthDay()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimTeam.AllInstances.TeamBirthDaySetDateTime">
+            <summary>Sets the shim of Team.set_TeamBirthDay(DateTime value)</summary>
+        </member>
+        <member name="T:MyCricket.Domain.Fakes.ShimVenue">
+            <summary>Shim type of MyCricket.Domain.Venue</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.ShimVenue.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.ShimVenue.#ctor(MyCricket.Domain.Venue)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.ShimVenue.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.ShimVenue.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimVenue.AddressGet">
+            <summary>Sets the shim of Venue.get_Address()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimVenue.AddressSetAddress">
+            <summary>Sets the shim of Venue.set_Address(Address value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimVenue.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimVenue.Constructor">
+            <summary>Sets the shim of Venue.Venue()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimVenue.CurrentRecordGet">
+            <summary>Sets the shim of Venue.get_CurrentRecord()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimVenue.CurrentRecordSetBoolean">
+            <summary>Sets the shim of Venue.set_CurrentRecord(Boolean value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimVenue.IdGet">
+            <summary>Sets the shim of Venue.get_Id()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimVenue.IdSetInt32">
+            <summary>Sets the shim of Venue.set_Id(Int32 value)</summary>
+        </member>
+        <member name="T:MyCricket.Domain.Fakes.ShimVenue.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimVenue.AllInstances.AddressGet">
+            <summary>Sets the shim of Venue.get_Address()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimVenue.AllInstances.AddressSetAddress">
+            <summary>Sets the shim of Venue.set_Address(Address value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimVenue.AllInstances.CurrentRecordGet">
+            <summary>Sets the shim of Venue.get_CurrentRecord()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimVenue.AllInstances.CurrentRecordSetBoolean">
+            <summary>Sets the shim of Venue.set_CurrentRecord(Boolean value)</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimVenue.AllInstances.IdGet">
+            <summary>Sets the shim of Venue.get_Id()</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.ShimVenue.AllInstances.IdSetInt32">
+            <summary>Sets the shim of Venue.set_Id(Int32 value)</summary>
+        </member>
+        <member name="T:MyCricket.Domain.Fakes.StubAddress">
+            <summary>Stub type of MyCricket.Domain.Address</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.StubAddress.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.StubAddress.InitializeStub">
+            <summary>Initializes a new instance of type StubAddress</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.StubAddress.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.StubAddress.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.StubAddress.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:MyCricket.Domain.Fakes.StubCountry">
+            <summary>Stub type of MyCricket.Domain.Country</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.StubCountry.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.StubCountry.InitializeStub">
+            <summary>Initializes a new instance of type StubCountry</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.StubCountry.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.StubCountry.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.StubCountry.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:MyCricket.Domain.Fakes.StubFixture">
+            <summary>Stub type of MyCricket.Domain.Fixture</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.StubFixture.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.StubFixture.InitializeStub">
+            <summary>Initializes a new instance of type StubFixture</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.StubFixture.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.StubFixture.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.StubFixture.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:MyCricket.Domain.Fakes.StubPlayer">
+            <summary>Stub type of MyCricket.Domain.Player</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.StubPlayer.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.StubPlayer.InitializeStub">
+            <summary>Initializes a new instance of type StubPlayer</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.StubPlayer.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.StubPlayer.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.StubPlayer.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:MyCricket.Domain.Fakes.StubState">
+            <summary>Stub type of MyCricket.Domain.State</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.StubState.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.StubState.InitializeStub">
+            <summary>Initializes a new instance of type StubState</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.StubState.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.StubState.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.StubState.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:MyCricket.Domain.Fakes.StubTeam">
+            <summary>Stub type of MyCricket.Domain.Team</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.StubTeam.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.StubTeam.InitializeStub">
+            <summary>Initializes a new instance of type StubTeam</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.StubTeam.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.StubTeam.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.StubTeam.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:MyCricket.Domain.Fakes.StubVenue">
+            <summary>Stub type of MyCricket.Domain.Venue</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.StubVenue.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Fakes.StubVenue.InitializeStub">
+            <summary>Initializes a new instance of type StubVenue</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.StubVenue.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.StubVenue.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:MyCricket.Domain.Fakes.StubVenue.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:MyCricket.Domain.Repositories.Fakes.StubIRepository">
+            <summary>Stub type of MyCricket.Domain.Repositories.IRepository</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Repositories.Fakes.StubIRepository.#ctor">
+            <summary>Initializes a new instance of type StubIRepository</summary>
+        </member>
+        <member name="T:MyCricket.Domain.Repositories.Fakes.StubITeamRepository">
+            <summary>Stub type of MyCricket.Domain.Repositories.ITeamRepository</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Repositories.Fakes.StubITeamRepository.#ctor">
+            <summary>Initializes a new instance of type StubITeamRepository</summary>
+        </member>
+        <member name="F:MyCricket.Domain.Repositories.Fakes.StubITeamRepository.AddTeam">
+            <summary>Sets the stub of ITeamRepository.Add(Team team)</summary>
+        </member>
+        <member name="F:MyCricket.Domain.Repositories.Fakes.StubITeamRepository.GetAllCurrentTeams">
+            <summary>Sets the stub of ITeamRepository.GetAllCurrentTeams()</summary>
+        </member>
+        <member name="F:MyCricket.Domain.Repositories.Fakes.StubITeamRepository.GetAllTeams">
+            <summary>Sets the stub of ITeamRepository.GetAllTeams()</summary>
+        </member>
+        <member name="F:MyCricket.Domain.Repositories.Fakes.StubITeamRepository.GetTeamInt32">
+            <summary>Sets the stub of ITeamRepository.GetTeam(Int32 teamId)</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Repositories.Fakes.StubITeamRepository.mcd::MyCricket#Domain#Repositories#ITeamRepository#Add(MyCricket.Domain.Team)">
+            <summary>Sets the stub of ITeamRepository.Add(Team team)</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Repositories.Fakes.StubITeamRepository.mcd::MyCricket#Domain#Repositories#ITeamRepository#GetAllCurrentTeams">
+            <summary>Sets the stub of ITeamRepository.GetAllCurrentTeams()</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Repositories.Fakes.StubITeamRepository.mcd::MyCricket#Domain#Repositories#ITeamRepository#GetAllTeams">
+            <summary>Sets the stub of ITeamRepository.GetAllTeams()</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Repositories.Fakes.StubITeamRepository.mcd::MyCricket#Domain#Repositories#ITeamRepository#GetTeam(System.Int32)">
+            <summary>Sets the stub of ITeamRepository.GetTeam(Int32 teamId)</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Repositories.Fakes.StubITeamRepository.mcd::MyCricket#Domain#Repositories#ITeamRepository#Remove(MyCricket.Domain.Team)">
+            <summary>Sets the stub of ITeamRepository.Remove(Team team)</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Repositories.Fakes.StubITeamRepository.mcd::MyCricket#Domain#Repositories#ITeamRepository#Save">
+            <summary>Sets the stub of ITeamRepository.Save()</summary>
+        </member>
+        <member name="F:MyCricket.Domain.Repositories.Fakes.StubITeamRepository.RemoveTeam">
+            <summary>Sets the stub of ITeamRepository.Remove(Team team)</summary>
+        </member>
+        <member name="F:MyCricket.Domain.Repositories.Fakes.StubITeamRepository.Save">
+            <summary>Sets the stub of ITeamRepository.Save()</summary>
+        </member>
+    </members>
+</doc>

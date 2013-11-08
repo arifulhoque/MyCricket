@@ -1,0 +1,10 @@
+C:\Users\ariful.hoque\Documents\Visual Studio 2012\Projects\MyFirstMVC4\MyCricket.WebAPI.Tests\obj\Debug\Fakes\mcd\b\MyCricket.Domain.Fakes.xml
+C:\Users\ariful.hoque\Documents\Visual Studio 2012\Projects\MyFirstMVC4\MyCricket.WebAPI.Tests\obj\Debug\Fakes\mcd\b\MyCricket.Domain.Fakes.dll
+C:\Users\ariful.hoque\Documents\Visual Studio 2012\Projects\MyFirstMVC4\MyCricket.WebAPI.Tests\obj\Debug\Fakes\mcd\b\MyCricket.Domain.Fakes.pdb
+C:\Users\ariful.hoque\Documents\Visual Studio 2012\Projects\MyFirstMVC4\MyCricket.WebAPI.Tests\obj\Debug\Fakes\mcd\b\Microsoft.QualityTools.Testing.Fakes.dll
+C:\Users\ariful.hoque\Documents\Visual Studio 2012\Projects\MyFirstMVC4\MyCricket.WebAPI.Tests\obj\Debug\Fakes\mcd\b\MyCricket.Domain.dll
+C:\Users\ariful.hoque\Documents\Visual Studio 2012\Projects\MyFirstMVC4\MyCricket.WebAPI.Tests\obj\Debug\Fakes\mcd\b\MyCricket.Domain.pdb
+C:\Users\ariful.hoque\Documents\Visual Studio 2012\Projects\MyFirstMVC4\MyCricket.WebAPI.Tests\obj\Debug\Fakes\mcd\o\f.csprojResolveAssemblyReference.cache
+C:\Users\ariful.hoque\Documents\Visual Studio 2012\Projects\MyFirstMVC4\MyCricket.WebAPI.Tests\obj\Debug\Fakes\mcd\o\MyCricket.Domain.Fakes.rewritten
+C:\Users\ariful.hoque\Documents\Visual Studio 2012\Projects\MyFirstMVC4\MyCricket.WebAPI.Tests\obj\Debug\Fakes\mcd\o\MyCricket.Domain.Fakes.dll
+C:\Users\ariful.hoque\Documents\Visual Studio 2012\Projects\MyFirstMVC4\MyCricket.WebAPI.Tests\obj\Debug\Fakes\mcd\o\MyCricket.Domain.Fakes.pdb

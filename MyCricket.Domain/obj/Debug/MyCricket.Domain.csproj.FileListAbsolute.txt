@@ -1,0 +1,4 @@
+C:\Users\ariful.hoque\Documents\Visual Studio 2012\Projects\MyFirstMVC4\MyCricket.Domain\bin\Debug\MyCricket.Domain.dll
+C:\Users\ariful.hoque\Documents\Visual Studio 2012\Projects\MyFirstMVC4\MyCricket.Domain\bin\Debug\MyCricket.Domain.pdb
+C:\Users\ariful.hoque\Documents\Visual Studio 2012\Projects\MyFirstMVC4\MyCricket.Domain\obj\Debug\MyCricket.Domain.dll
+C:\Users\ariful.hoque\Documents\Visual Studio 2012\Projects\MyFirstMVC4\MyCricket.Domain\obj\Debug\MyCricket.Domain.pdb
