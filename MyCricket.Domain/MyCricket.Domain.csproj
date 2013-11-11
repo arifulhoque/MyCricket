@@ -48,6 +48,7 @@
     <Compile Include="Entities\State.cs" />
     <Compile Include="Entities\Team.cs" />
     <Compile Include="Entities\Venue.cs" />
+    <Compile Include="Repositories\IPlayerRepository.cs" />
     <Compile Include="Repositories\IRepository.cs" />
     <Compile Include="Repositories\ITeamRepository.cs" />
   </ItemGroup>

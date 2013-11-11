@@ -682,6 +682,48 @@
         <member name="P:MyCricket.Domain.Fakes.StubVenue.InstanceObserver">
             <summary>Gets or sets the instance observer.</summary>
         </member>
+        <member name="T:MyCricket.Domain.Repositories.Fakes.StubIPlayerRepository">
+            <summary>Stub type of MyCricket.Domain.Repositories.IPlayerRepository</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Repositories.Fakes.StubIPlayerRepository.#ctor">
+            <summary>Initializes a new instance of type StubIPlayerRepository</summary>
+        </member>
+        <member name="F:MyCricket.Domain.Repositories.Fakes.StubIPlayerRepository.AddTeamPlayer">
+            <summary>Sets the stub of IPlayerRepository.Add(Team team, Player player)</summary>
+        </member>
+        <member name="F:MyCricket.Domain.Repositories.Fakes.StubIPlayerRepository.GetAllPlayers">
+            <summary>Sets the stub of IPlayerRepository.GetAllPlayers()</summary>
+        </member>
+        <member name="F:MyCricket.Domain.Repositories.Fakes.StubIPlayerRepository.GetAllPlayersTeam">
+            <summary>Sets the stub of IPlayerRepository.GetAllPlayers(Team team)</summary>
+        </member>
+        <member name="F:MyCricket.Domain.Repositories.Fakes.StubIPlayerRepository.GetPlayerInt32">
+            <summary>Sets the stub of IPlayerRepository.GetPlayer(Int32 playerId)</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Repositories.Fakes.StubIPlayerRepository.mcd::MyCricket#Domain#Repositories#IPlayerRepository#Add(MyCricket.Domain.Team,MyCricket.Domain.Player)">
+            <summary>Sets the stub of IPlayerRepository.Add(Team team, Player player)</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Repositories.Fakes.StubIPlayerRepository.mcd::MyCricket#Domain#Repositories#IPlayerRepository#GetAllPlayers">
+            <summary>Sets the stub of IPlayerRepository.GetAllPlayers()</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Repositories.Fakes.StubIPlayerRepository.mcd::MyCricket#Domain#Repositories#IPlayerRepository#GetAllPlayers(MyCricket.Domain.Team)">
+            <summary>Sets the stub of IPlayerRepository.GetAllPlayers(Team team)</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Repositories.Fakes.StubIPlayerRepository.mcd::MyCricket#Domain#Repositories#IPlayerRepository#GetPlayer(System.Int32)">
+            <summary>Sets the stub of IPlayerRepository.GetPlayer(Int32 playerId)</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Repositories.Fakes.StubIPlayerRepository.mcd::MyCricket#Domain#Repositories#IPlayerRepository#Remove(MyCricket.Domain.Team,MyCricket.Domain.Player)">
+            <summary>Sets the stub of IPlayerRepository.Remove(Team team, Player player)</summary>
+        </member>
+        <member name="M:MyCricket.Domain.Repositories.Fakes.StubIPlayerRepository.mcd::MyCricket#Domain#Repositories#IPlayerRepository#Save">
+            <summary>Sets the stub of IPlayerRepository.Save()</summary>
+        </member>
+        <member name="F:MyCricket.Domain.Repositories.Fakes.StubIPlayerRepository.RemoveTeamPlayer">
+            <summary>Sets the stub of IPlayerRepository.Remove(Team team, Player player)</summary>
+        </member>
+        <member name="F:MyCricket.Domain.Repositories.Fakes.StubIPlayerRepository.Save">
+            <summary>Sets the stub of IPlayerRepository.Save()</summary>
+        </member>
         <member name="T:MyCricket.Domain.Repositories.Fakes.StubIRepository">
             <summary>Stub type of MyCricket.Domain.Repositories.IRepository</summary>
         </member>

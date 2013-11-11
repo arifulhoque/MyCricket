@@ -38,6 +38,8 @@ namespace MyCricket.WebAPI.Controllers
         public HttpResponseMessage Post([FromBody]Team team)
         {
             team = TeamRepository.Add(team);
+            TeamRepository.Save();
+
             HttpResponseMessage response = Request.CreateResponse<Team>(HttpStatusCode.Created, team);
 
             string uri = Url.Link("DefaultApi", new { id = team.Id });

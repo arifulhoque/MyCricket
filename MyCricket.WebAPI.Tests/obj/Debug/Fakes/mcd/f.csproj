@@ -8,7 +8,7 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.21022</ProductVersion>
-    <ProjectGuid>02575fc2-4418-4e56-8067-127d040a54bd</ProjectGuid>
+    <ProjectGuid>509f4b50-acd2-4805-b81b-0180fcc44cf9</ProjectGuid>
     <!-- update GUID here -->
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -51,7 +51,7 @@
       <Aliases>mqttf</Aliases>
     </Reference>
     <Reference Include="MyCricket.Domain">
-      <HintPath>C:\Users\ariful.hoque\Documents\Visual Studio 2012\Projects\MyFirstMVC4\MyCricket.Domain\bin\Debug\MyCricket.Domain.dll</HintPath>
+      <HintPath>C:\Projects\MyCricket\MyCricket.Domain\bin\Debug\MyCricket.Domain.dll</HintPath>
       <Aliases>mcd</Aliases>
       <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
